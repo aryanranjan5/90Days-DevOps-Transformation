@@ -1,14 +1,14 @@
-# Day 4 - Logs and Pipes
+# Day 4 - Logs and Monitoring
 
 Commands practiced
+head
+tail
+tail -f
 less
 grep
-ps aux
-history
-pipes |
 
 Learnings
 Logs help debug systems
-grep filters output
-pipes send output of one command to another
-ps aux shows running processes
+tail -f streams logs in real time
+less is safer for large files
+grep helps filter logs
